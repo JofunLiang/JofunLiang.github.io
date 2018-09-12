@@ -4,7 +4,7 @@ header:
       zh:       首页
       zh-Hans:  首页
       zh-Hant:  首頁
-    url:        http://www.jofun.win/
+    url:        /home.html
   - titles:
       en:       Archive
       zh:       归档
