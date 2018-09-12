@@ -1,5 +1,6 @@
 .header {
   background: $header-background;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   a {
     font-weight: map-get($base, font-weight);
     text-decoration: none !important;
