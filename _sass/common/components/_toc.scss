@@ -24,7 +24,7 @@ ul.toc {
     padding: .8rem 0 .3rem 0;
     margin-bottom: .6rem;
     a {
-      @include link-colors($text-color-d);
+      @include link-colors($main-color-1);
     }
   }
   .toc-h1,
@@ -44,7 +44,7 @@ ul.toc {
   .toc-h5,
   .toc-h6 {
     a {
-      @include link-colors($text-color-l);
+      @include link-colors($main-color-1);
     }
   }
   .toc-h3 {
@@ -102,7 +102,7 @@ ul.toc--navigator {
   .toc-h3,
   .toc-h4 {
     &, a {
-      @include link-colors($text-color-l);
+      @include link-colors($main-color-1);
     }
   }
 
