@@ -7,7 +7,6 @@ ul.toc {
     &.active {
       a {
         color: $main-color-1;
-        @include link-colors($main-color-1);
       }
     }
   }
