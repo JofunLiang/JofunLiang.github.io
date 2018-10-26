@@ -1,6 +1,6 @@
 ---
 title: Vue组件样式scoped的原理与样式穿透的用法
-key: M20180913
+key: 20180913
 tags: Vue 
 ---
 
