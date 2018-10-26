@@ -117,12 +117,12 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : 143666b578a416f82175
-    clientSecret: 1d1c0604a1a4bff9b59ab7f56724dc0e8b837775
-    repository  : gitalk-demo
-    owner       : kitian616
+    clientID    : a68b6e804eda17d1a6c7
+    clientSecret: 79c411546dc59b6f621caf9160e2f4f3042e54ec
+    repository  : JofunLiang.github.io
+    owner       : JofunLiang 
     admin:
-      - kitian616
+      - JofunLiang
 
 
 ## => Pageview
