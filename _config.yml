@@ -106,7 +106,7 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "custom"
+  provider: 'gitalk' # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
@@ -115,24 +115,24 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : a68b6e804eda17d1a6c7
-    clientSecret: 79c411546dc59b6f621caf9160e2f4f3042e54ec
-    repository  : JofunLiang.github.io
-    owner       : JofunLiang
-    admin: JofunLiang
+    clientID    : 'a68b6e804eda17d1a6c7'
+    clientSecret: '79c411546dc59b6f621caf9160e2f4f3042e54ec'
+    repository  : 'JofunLiang.github.io'
+    owner       : 'JofunLiang'
+    admin: 'JofunLiang'
       # - your GitHub Id
 
 
 ## => Pageview
 ##############################
 pageview:
-  provider: leancloud # false (default), "leancloud", "custom"
+  provider: 'leancloud' # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : 4LBlpULyr5OjUALfUvjtukt2-gzGzoHsz
-    app_key   : 7wnFuSD0E39BHNYHBH9OWBgp
-    app_class : my_blog
+    app_id    : '4LBlpULyr5OjUALfUvjtukt2-gzGzoHsz'
+    app_key   : '7wnFuSD0E39BHNYHBH9OWBgp'
+    app_class : 'my_blog'
 
 
 ## => Analytics
