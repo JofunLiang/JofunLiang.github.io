@@ -35,7 +35,7 @@
 }
 
 .button--secondary {
-  @include clickable($text-color-3, $main-color-3);
+  @include clickable($text-color-1, rgba($main-color-1, .4));
 }
 
 .button--success {
