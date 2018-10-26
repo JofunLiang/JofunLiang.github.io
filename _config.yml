@@ -52,7 +52,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: JofunLiang/JofunLiang.github.io
 repository_tree: master
 
 
@@ -130,9 +130,9 @@ pageview:
 
   ## Leancloud
   leancloud:
-    app_id    : '4LBlpULyr5OjUALfUvjtukt2-gzGzoHsz'
-    app_key   : '7wnFuSD0E39BHNYHBH9OWBgp'
-    app_class : 'my_blog'
+    app_id    : 4LBlpULyr5OjUALfUvjtukt2-gzGzoHsz
+    app_key   : 7wnFuSD0E39BHNYHBH9OWBgp
+    app_class : my_blog
 
 
 ## => Analytics
