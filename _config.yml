@@ -115,12 +115,12 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : "a68b6e804eda17d1a6c7"
-    clientSecret: "79c411546dc59b6f621caf9160e2f4f3042e54ec"
-    repository  : "JofunLiang.github.io"
-    owner       : "JofunLiang"
-    admin: "JofunLiang"
-      # - your GitHub Id
+  clientID: a68b6e804eda17d1a6c7 # GitHub Application Client ID
+  clientSecret: 79c411546dc59b6f621caf9160e2f4f3042e54ec # GitHub Application Client Secret
+  repository: JofunLiang.github.io # GitHub repo
+  owner: JofunLiang # GitHub repo owner
+  admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+    - JofunLiang
 
 
 ## => Pageview
