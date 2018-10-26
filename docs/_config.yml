@@ -132,9 +132,9 @@ pageview:
 
   ## Leancloud
   leancloud:
-    app_id    : uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-    app_key   : Mzf5m9skSwYVWVXhGiYMNyXs
-    app_class : TeXtDemo
+    app_id    : 4LBlpULyr5OjUALfUvjtukt2-gzGzoHsz
+    app_key   : 7wnFuSD0E39BHNYHBH9OWBgp
+    app_class : my_blog
 
 
 ## => Analytics
