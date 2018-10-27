@@ -16,7 +16,7 @@ ul.toc {
     padding: .2rem .8rem .2rem .8rem;
     text-decoration: none !important;
     border-radius: map-get($base, border-radius);
-    @include clickable($text-color, null, $main-color-1, $text-color-3);
+    @include clickable($text-color, null, $main-color-1, transparent);
   }
 
   .toc-h1 {
