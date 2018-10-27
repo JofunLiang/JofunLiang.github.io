@@ -18,14 +18,22 @@ ul.toc {
     border-radius: map-get($base, border-radius);
     color: $text-color;
   }
+  
+  .toc-h1,
+  .toc-h2,
+  .toc-h3,
+  .toc-h4,
+  .toc-h5,
+  .toc-h6 {
+    a {
+      @include link-colors($main-color-1);
+    }
+  }
 
   .toc-h1 {
     @include split-line(bottom);
     padding: .8rem 0 .3rem 0;
     margin-bottom: .6rem;
-    a {
-      @include link-colors($main-color-1);
-    }
   }
   .toc-h1,
   .toc-h2 {
@@ -39,12 +47,6 @@ ul.toc {
   .toc-h6 {
     &, a {
       font-weight: map-get($base, font-weight);
-    }
-  }
-  .toc-h5,
-  .toc-h6 {
-    a {
-      @include link-colors($main-color-1);
     }
   }
   .toc-h3 {
