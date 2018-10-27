@@ -11,7 +11,6 @@ ul.toc {
     padding: .2rem .8rem .2rem .8rem;
     text-decoration: none !important;
     border-radius: map-get($base, border-radius);
-    color: $text-color-3;
   }
   
   .toc-h1,
@@ -21,7 +20,11 @@ ul.toc {
   .toc-h5,
   .toc-h6 {
     a {
-      @include link-colors($text-color-3);
+      color: $text-color-3;
+      &:hover,
+      &.active{
+        color: $main-color-1;
+      }
     }
   }
 
