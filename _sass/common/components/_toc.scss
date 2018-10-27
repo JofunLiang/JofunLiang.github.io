@@ -4,11 +4,6 @@ ul.toc {
   list-style-type: none;
   & > li {
     margin: .2rem 0;
-    &.active {
-      a {
-        color: $main-color-1;
-      }
-    }
   }
 
   a {
