@@ -21,7 +21,7 @@ ul.toc {
   .toc-h5,
   .toc-h6 {
     a {
-      @include link-colors($main-color-1);
+      @include link-colors($text-color-3);
     }
   }
 
