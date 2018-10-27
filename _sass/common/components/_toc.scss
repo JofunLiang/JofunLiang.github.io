@@ -24,7 +24,7 @@ ul.toc {
     padding: .8rem 0 .3rem 0;
     margin-bottom: .6rem;
     a {
-      @include link-colors($main-color-1);
+      @include link-colors($text-color-3);
     }
   }
   .toc-h1,
