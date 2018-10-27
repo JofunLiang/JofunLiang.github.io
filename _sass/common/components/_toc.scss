@@ -6,8 +6,7 @@ ul.toc {
     margin: .2rem 0;
     &.active {
       a {
-        color: $text-color-3;
-        @include link-colors($main-color-1)!important;
+        color: $main-color-1;
       }
     }
   }
