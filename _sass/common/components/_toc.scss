@@ -21,10 +21,12 @@ ul.toc {
   .toc-h6 {
     a {
       color: $text-color-3!important;
-      &:hover,
-      &.active{
+      &:hover{
         color: $main-color-1!important;
       }
+    }
+    &.active a{
+      color: $main-color-1!important;
     }
   }
 
