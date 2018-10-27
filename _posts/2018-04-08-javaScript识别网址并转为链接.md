@@ -1,10 +1,10 @@
 ---
-title: Hi! My first blog
+title: javaScript识别网址并转为链接
 key: 20180408
 tags: javascript
 ---
 
-# javaScript识别网址并转为链接
+# 需求
 
 最近项目有个需求：用户发送消息时，如果发送者输入的信息中含有网址文本，要在接受者界面中显示网址链接，点击该链接直接跳转到网页。这个功能和 QQ 发送网址文本的效果类似。
 
