@@ -52,7 +52,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: JofunLiang/JofunLiang.github.io
+repository: jofunLiang/JofunLiang.github.io
 repository_tree: master
 
 
@@ -106,7 +106,7 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: "gitalk" # false (default), "disqus", "gitalk", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
@@ -118,9 +118,9 @@ comments:
   clientID: a68b6e804eda17d1a6c7 # GitHub Application Client ID
   clientSecret: 79c411546dc59b6f621caf9160e2f4f3042e54ec # GitHub Application Client Secret
   repository: JofunLiang.github.io # GitHub repo
-  owner: JofunLiang # GitHub repo owner
+  owner: jofunLiang # GitHub repo owner
   admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-    - JofunLiang
+    - jofunLiang
 
 
 ## => Pageview
