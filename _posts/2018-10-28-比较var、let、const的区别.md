@@ -22,7 +22,7 @@ function foo() {
 foo();
 
 console.log(a); // 打印"1" 。
-console.log(b); // 抛出ReferenceError: z未在x外部声明。
+console.log(b); // 抛出ReferenceError: b未在foo外部声明。
 ```
 
 <!--more-->
