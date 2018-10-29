@@ -82,7 +82,7 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
+mathjax: true # false (default), true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid
@@ -106,22 +106,21 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: 'gitalk' # false (default), "disqus", "gitalk", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
-    shortname: myBlog # the Disqus shortname for the site
+    shortname: # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-  clientID: a68b6e804eda17d1a6c7 # GitHub Application Client ID
-  clientSecret: 79c411546dc59b6f621caf9160e2f4f3042e54ec # GitHub Application Client Secret
-  repository: JofunLiang.github.io # GitHub repo
-  owner: JofunLiang # GitHub repo owner
-  admin: ['JofunLiang'] # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-    - JofunLiang
-
+    clientID: a68b6e804eda17d1a6c7 # GitHub Application Client ID
+    clientSecret: 79c411546dc59b6f621caf9160e2f4f3042e54ec # GitHub Application Client Secret
+    repository: JofunLiang.github.io # GitHub repo
+    owner: JofunLiang # GitHub repo owner
+    admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+      - JofunLiang
 
 ## => Pageview
 ##############################
