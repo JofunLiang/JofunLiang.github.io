@@ -20,9 +20,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: tomorrow-night-bright # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://www.jofun.win/ # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : jofun's blog
+title   : JofunLiang's blog
 description: > # this means to ignore newlines until "Language & timezone"
-  jofun's blog
+  JofunLiang's blog
 
 
 ## => Language and Timezone
@@ -35,7 +35,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : jofunLiang
+  name      : JofunLiang
   url       :
   avatar    : https://avatars0.githubusercontent.com/u/26024762?s=40&v=4 # path or url of avatar image
   bio       : I am an amazing person.
@@ -52,7 +52,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: jofunLiang/JofunLiang.github.io
+repository: JofunLiang/JofunLiang.github.io
 repository_tree: master
 
 
@@ -118,9 +118,9 @@ comments:
     clientID: a68b6e804eda17d1a6c7 # GitHub Application Client ID
     clientSecret: 79c411546dc59b6f621caf9160e2f4f3042e54ec # GitHub Application Client Secret
     repository: JofunLiang.github.io # GitHub repo
-    owner: jofunLiang # GitHub repo owner
+    owner: JofunLiang # GitHub repo owner
     admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-      - jofunLiang
+      - JofunLiang
 
 ## => Pageview
 ##############################
