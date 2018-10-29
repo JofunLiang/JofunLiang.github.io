@@ -6,6 +6,8 @@ tags: JavaScript
 
 在前端开发工作中，JavaScript 语言是其核心语言。JavaScript 是一门动态弱类型语言，为什么是动态弱类型语言？这是因为 JavaScript 在声明变量时无需严格指定变量类型，且在变量的使用中可以随时显示或隐式变换类型。因此，理解其变量声明语句是非常基础以及非常重要的。而最常用的声明变量关键字是 var,在ES6版本中新增了let和const声明。
 
+<!--more-->
+
 # var声明与变量提升
 
 ## 描述
@@ -24,8 +26,6 @@ foo();
 console.log(a); // 打印"1" 。
 console.log(b); // 抛出ReferenceError: b未在foo外部声明。
 ```
-
-<!--more-->
 
 ## 变量提升
 
