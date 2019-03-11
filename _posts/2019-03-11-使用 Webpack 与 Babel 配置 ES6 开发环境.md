@@ -1,3 +1,9 @@
+---
+title: 使用 Webpack 与 Babel 配置 ES6 开发环境
+key: 20190311
+tags: 前端构建工具
+---
+
 # 使用 Webpack 与 Babel 配置 ES6 开发环境
 
 Webpack 和 Babel 几乎是现在前端开发必备的工具，Webpack 是一个现代 JavaScript 应用程序的静态模块打包器，Babel 是一个 ES6 编译器，由于目前浏览器对 ES6 的兼容性有差异，无法直接在项目中使用 ES6，需要使用 Babel 编译器转换成 ES5 才能在浏览器中运行。使用 Webpack 和 Babel 也开发了几个项目，使用时间少说也有两三年了，本文就讲解一下使用 Webpack 与 Babel 配置 ES6 开发环境。
