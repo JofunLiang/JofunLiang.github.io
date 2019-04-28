@@ -1,7 +1,7 @@
 ---
-title: javaScript识别网址并转为链接
-key: 20180408
-tags: JavaScript
+title: gulp + gulp-better-rollup + rollup 构建 ES6 开发环境
+key: 20190428
+tags: Gulp
 ---
 
 # gulp + gulp-better-rollup + rollup 构建 ES6 开发环境
